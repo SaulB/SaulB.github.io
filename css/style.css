@@ -1,0 +1,638 @@
+/*FONTS*/
+
+@font-face {
+    font-family: 'CaviarDreams';
+    src: url('fonts/CaviarDreams.eot');
+    src: url('fonts/CaviarDreams.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams-.woff') format('woff'),
+         url('fonts/CaviarDreams.ttf') format('truetype'),
+         url('fonts/CaviarDreams.svg#CaviarDreams') format('svg');
+}
+
+@font-face {
+    font-family: 'CaviarDreams_Bold';
+    src: url('fonts/CaviarDreams_Bold.eot');
+    src: url('fonts/CaviarDreams_Bold.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams_Bold.woff') format('woff'),
+         url('fonts/CaviarDreams_Bold.ttf') format('truetype'),
+         url('fonts/CaviarDreams_Bold-.svg#CaviarDreams_Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'CaviarDreams_BoldItalic';
+    src: url('fonts/CaviarDreams_BoldItalic.eot');
+    src: url('fonts/CaviarDreams_BoldItalic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams_BoldItalic.woff') format('woff'),
+         url('fonts/CaviarDreams_BoldItalic.ttf') format('truetype'),
+         url('fonts/CaviarDreams_BoldItalic.svg#CaviarDreams_BoldItalic') format('svg');
+}
+
+@font-face {
+    font-family: 'CaviarDreams_Italic';
+    src: url('fonts/CaviarDreams_Italic.eot');
+    src: url('fonts/CaviarDreams_Italic.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams_Italic.woff') format('woff'),
+         url('fonts/CaviarDreams_Italic.ttf') format('truetype'),
+         url('fonts/CaviarDreams_Italic.svg#CaviarDreams_Italic') format('svg');
+}
+
+
+/*HEADER*/
+
+header
+{
+	display: block;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	overflow: hidden;
+	background-color: #E5E5E5;
+	height: 70px;
+}
+
+.menu
+{
+    display: inline-block;
+	width: 100%;
+    text-align: center;
+}
+
+.menu ul
+{
+    list-style-type: none;
+}
+
+
+.menu li
+{
+    display: inline-block;
+}
+
+.menu a
+{
+	padding-left: 15px;
+	padding-right: 15px;
+	text-decoration: none;
+	font-size: 32px;
+	color: black;
+	font-family: 'CaviarDreams', Arial, serif;
+}
+
+.menu a:active
+{
+	color: white;
+	background-color: #F2CC2C;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+	
+.menu a:hover
+{ 
+	color: white;
+}
+
+/*BODY*/
+
+body
+{
+	background-color: gray;
+	/*left: 0;
+	right: 0;*/
+	width: 100%;
+	font-family: 'CaviarDreams';
+}
+
+.main
+{
+	left: 0;
+	right: 0;
+	width: 100%;
+}
+
+section
+{
+	padding-top: 70px;
+	padding-bottom: 3%;
+	display: block;
+	left: 0;
+	width: 100%;
+}
+
+#section3, #section5
+{
+	background-color: white;
+}
+
+#section2, #section4
+{
+	background-color: #F2EDDA;
+}
+
+/*ACCUEIL*/
+
+.accueil
+{
+	background-color: #F2CC2C;
+}
+
+.accueil img
+{
+	display: block;
+	margin-top: 10%;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.accueil h1
+{
+	margin-top: 5%;
+	margin-bottom: 15%;
+	text-align: center;
+	font-size: 36px;
+}
+
+/*A PROPOS*/
+
+#section2 h1
+{
+	margin-left: 25%;
+}
+
+#section2 article
+{
+	margin-left: 25%;
+	margin-right: 10%;
+	font-size: 18px;
+}
+
+#modif
+{
+	list-style-type: none;
+	font-size: 20px;
+}
+
+/*COMPETENCES*/
+
+.skills
+{
+	list-style-type: none;
+	font-size: 20px;
+}
+
+.skills li
+{
+	margin-bottom: 5px;
+	margin-left: 5%;
+}
+
+.skills p
+{
+	display: inline-block;
+	width: 300px;
+}
+
+/*FORMATION*/
+
+.liseretFormation
+{
+	background-color: #F2CC2C;
+	margin-right: 80%;
+}
+
+.titleFormation
+{
+	margin-left: 5%;
+	color: white;
+	text-align: center;
+	font-size: 36px;
+}
+
+.formationList
+{
+    list-style-type: none;
+	font-size: 20px;
+}
+
+.formationList strong
+{
+	float: left;
+}
+
+.textFormation
+{
+	display: block;
+	padding-left: 30%;
+}
+
+/*EXPERIENCES*/
+
+.liseret
+{
+	background-color: #F2CC2C;
+}
+.exp
+{
+	margin-bottom: 20px;
+}
+
+.exp h1
+{
+	display: inline-block;
+	width: 400px;
+	margin-left: 50px;
+	font-size: 30px;
+}
+
+.exp h2
+{
+	display: inline-block;
+	color: white;
+	font-size: 20px;
+}
+
+.exp ul
+{
+	padding-left: 450px;
+	list-style-type: none;
+	font-size: 20px;
+}
+
+/*CONTACT*/
+
+.contact
+{
+	color: white;
+	background-color: #77693E;
+	bottom: 0;
+}
+
+#logo
+{
+	float: left;
+	font-size: 130px;
+	margin-left: 10%;
+	color: #F2EDDA;
+}
+
+#formulaire
+{
+	width: 600px;
+	display: inline-block;
+	margin-left: 10%;
+}
+
+#formulaire h1
+{
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+.contact label
+{
+	width: 90px;
+	float: left;
+	font-size: 20px;
+}
+
+#nom, #email, #sujet, #message
+{
+	width: 400px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	padding: 3px;
+	display: block;
+	border: none;
+	background-color: #F2EDDA;
+}
+
+#bouton
+{
+	cursor: pointer;
+	margin-left: 90px;
+	margin-bottom: 5%;
+	padding: 4px;
+	border: none;
+	border-radius: 5px;
+	background-color: #F2EDDA;
+}
+
+/* PROGRESS BAR */
+
+#progressbar {
+	display: inline-block;
+    width: 50%;
+    height: 15px;
+    background-color: #AAAAAA;
+    clear: both;
+}
+
+#pbaranim {
+    height: 15px;
+    width: 100%;
+    background: yellow;
+}
+
+/* Progress == 80% */
+
+#progress80 {
+    background: #F2CC2C; /*-- Color of the bar --*/
+    height: 15px;
+    width: 0%;
+    max-width: 100%;
+    float: left;
+    -webkit-animation: progress80 2s 1 forwards;
+    -moz-animation: progress80	2s 1 forwards;
+    -ms-animation: progress80 2s 1 forwards;
+    animation: progress80 2s 1 forwards;
+}
+
+@-webkit-keyframes progress80 { 
+    from { }
+
+    to { width: 80% }
+}
+
+@-moz-keyframes progress80 { 
+    from { }
+
+    to { width: 80% }
+}
+
+@-ms-keyframes progress80 { 
+    from { }
+
+    to { width: 80% }
+}
+
+@keyframes progress80 { 
+    from { }
+	
+	to { width: 80% }
+}
+
+/* Progress == 60% */
+
+#progress60 {
+    background: #F2CC2C; /*-- Color of the bar --*/
+    height: 15px;
+    width: 0%;
+    max-width: 100%;
+    float: left;
+    -webkit-animation: progress60 2s 1 forwards;
+    -moz-animation: progress60 2s 1 forwards;
+    -ms-animation: progress60 2s 1 forwards;
+    animation: progress60 2s 1 forwards;
+}
+
+@-webkit-keyframes progress60 { 
+    from { }
+
+    to { width: 60% }
+}
+
+@-moz-keyframes progress60 { 
+    from { }
+
+    to { width: 60% }
+}
+
+@-ms-keyframes progress60 { 
+    from { }
+
+    to { width: 60% }
+}
+
+@keyframes progress60 { 
+    from { }
+	
+	to { width: 60% }
+}
+
+/* Progress == 75% */
+
+#progress75 {
+    background: #F2CC2C; /*-- Color of the bar --*/
+    height: 15px;
+    width: 0%;
+    max-width: 100%;
+    float: left;
+    -webkit-animation: progress75 2s 1 forwards;
+    -moz-animation: progress75 2s 1 forwards;
+    -ms-animation: progress75 2s 1 forwards;
+    animation: progress75 2s 1 forwards;
+}
+
+@-webkit-keyframes progress75 { 
+    from { }
+
+    to { width: 75% }
+}
+
+@-moz-keyframes progress75 { 
+    from { }
+
+    to { width: 75% }
+}
+
+@-ms-keyframes progress75 { 
+    from { }
+
+    to { width: 75% }
+}
+
+@keyframes progress75 { 
+    from { }
+	
+	to { width: 75% }
+}
+
+/* Progress == 40% */
+
+#progress40 {
+    background: #F2CC2C; /*-- Color of the bar --*/
+    height: 15px;
+    width: 0%;
+    max-width: 100%;
+    float: left;
+    -webkit-animation: progress40 2s 1 forwards;
+    -moz-animation: progress40 2s 1 forwards;
+    -ms-animation: progress40 2s 1 forwards;
+    animation: progress40 2s 1 forwards;
+}
+
+@-webkit-keyframes progress40 { 
+    from { }
+
+    to { width: 40% }
+}
+
+@-moz-keyframes progress40 { 
+    from { }
+
+    to { width: 40% }
+}
+
+@-ms-keyframes progress40 { 
+    from { }
+
+    to { width: 40% }
+}
+
+@keyframes progress40 { 
+    from { }
+	
+	to { width: 40% }
+}
+
+/* Progress == 88% */
+
+#progress88 {
+    background: #F2CC2C; /*-- Color of the bar --*/
+    height: 15px;
+    width: 0%;
+    max-width: 100%;
+    float: left;
+    -webkit-animation: progress88 2s 1 forwards;
+    -moz-animation: progress88 2s 1 forwards;
+    -ms-animation: progress88 2s 1 forwards;
+    animation: progress88 2s 1 forwards;
+}
+
+@-webkit-keyframes progress88 { 
+    from { }
+
+    to { width: 88% }
+}
+
+@-moz-keyframes progress88 { 
+    from { }
+
+    to { width: 88% }
+}
+
+@-ms-keyframes progress88 { 
+    from { }
+
+    to { width: 88% }
+}
+
+@keyframes progress88 { 
+    from { }
+	
+	to { width: 88% }
+}
+
+/* Progress == 10% */
+
+#progress10 {
+    background: #F2CC2C; /*-- Color of the bar --*/
+    height: 15px;
+    width: 0%;
+    max-width: 100%;
+    float: left;
+    -webkit-animation: progress10 2s 1 forwards;
+    -moz-animation: progress10 2s 1 forwards;
+    -ms-animation: progress10 2s 1 forwards;
+    animation: progress10 2s 1 forwards;
+}
+
+@-webkit-keyframes progress10 { 
+    from { }
+
+    to { width: 10% }
+}
+
+@-moz-keyframes progress10 { 
+    from { }
+
+    to { width: 10% }
+}
+
+@-ms-keyframes progress10 { 
+    from { }
+
+    to { width: 10% }
+}
+
+@keyframes progress10 { 
+    from { }
+	
+	to { width: 10% }
+}
+
+/* Progress == 100% */
+
+#progress100 {
+    background: #F2CC2C; /*-- Color of the bar --*/
+    height: 15px;
+    width: 0%;
+    max-width: 100%;
+    float: left;
+    -webkit-animation: progress100 2s 1 forwards;
+    -moz-animation: progress100 2s 1 forwards;
+    -ms-animation: progress100 2s 1 forwards;
+    animation: progress100 2s 1 forwards;
+}
+
+@-webkit-keyframes progress100 { 
+    from { }
+
+    to { width: 100% }
+}
+
+@-moz-keyframes progress100 { 
+    from { }
+
+    to { width: 100% }
+}
+
+@-ms-keyframes progress100 { 
+    from { }
+
+    to { width: 100% }
+}
+
+@keyframes progress100 { 
+    from { }
+	
+	to { width: 100% }
+}
+
+/* Progress == 90% */
+
+#progress90 {
+    background: #F2CC2C; /*-- Color of the bar --*/
+    height: 15px;
+    width: 0%;
+    max-width: 100%;
+    float: left;
+    -webkit-animation: progress90 2s 1 forwards;
+    -moz-animation: progress90 2s 1 forwards;
+    -ms-animation: progress90 2s 1 forwards;
+    animation: progress90 2s 1 forwards;
+}
+
+@-webkit-keyframes progress90 { 
+    from { }
+
+    to { width: 90% }
+}
+
+@-moz-keyframes progress90 { 
+    from { }
+
+    to { width: 90% }
+}
+
+@-ms-keyframes progress90 { 
+    from { }
+
+    to { width: 90% }
+}
+
+@keyframes progress90 { 
+    from { }
+	
+	to { width: 90% }
+}
