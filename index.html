@@ -5,8 +5,11 @@
 		<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-		<link rel="stylesheet" href="css/style.css"</link>
+		<link rel="stylesheet" href="css/style.css"></link>
         <title>Benjamin Saül CV</title>
+
+        <script src="js/jquery-1.11.3.min.js"></script>
+		<script src="js/jquery.waypoints.js"></script>
     </head>
 
 	<!--[if IE 6 ]><body class="ie6 old_ie"><![endif]-->
@@ -18,17 +21,17 @@
 	<header>
 		<nav class="menu">
 			<ul>
-				<li><a class="target-section-1" href="#section1">Accueil</a></li>
-				<li><a class="target-section-2" href="#section2">À Propos</a></li>
-				<li><a class="target-section-3" href="#section3">Compétences</a></li>
-				<li><a class="target-section-4" href="#section4">Formation</a></li>
-				<li><a class="target-section-5" href="#section5">Expériences</a></li>
-				<li><a class="target-section-6" href="#section6">Contact</a></li>
+				<li><a class="target-section1 current" href="#section1">Accueil</a></li>
+				<li><a class="target-section2" href="#section2">À Propos</a></li>
+				<li><a class="target-section3" href="#section3">Compétences</a></li>
+				<li><a class="target-section4" href="#section4">Formation</a></li>
+				<li><a class="target-section5" href="#section5">Expériences</a></li>
+				<li><a class="target-section6" href="#section6">Contact</a></li>
 			</ul>
 		</nav>
 	</header>
 	
-	<div class="main">
+	<div class="main" id="main">
 	<section id="section1" class="accueil">
 		<img src="css/images/benjamintitle.png" alt="Développeur Content" title="LogoCVWeb"/>
 		<h1>Développeur content</h1>
@@ -48,7 +51,7 @@
 	<h1>Modification du site en cours:</h1>
 	<article>
 		<ul id="modif">
-			<li>Ajout javascript</li>
+			<li>Ajout javascript: améliorer la visibilité des sections avec .waypoint</li>
 			<li>Bug marge à gauche</li>
 			<li>Rendre le site Responsive Design</li>
 			<li>Faire la page .php pour la fiche contact</li>
@@ -62,7 +65,7 @@
 		<li><p>C</p>			<div id="progressbar"><div id="progress75" ><div id="pbaranim"></div></div></div></li>
 		<li><p>C++</p>			<div id="progressbar"><div id="progress80" ><div id="pbaranim"></div></div></div></li>
 		<li><p>Java</p>			<div id="progressbar"><div id="progress40" ><div id="pbaranim"></div></div></div></li>
-		<li><p>HTML5 / CSS3</p>	<div id="progressbar"><div id="progress80" ><div id="pbaranim"></div></div></div></li>
+		<li><p>HTML5 / CSS3</p>	<div id="progressbar"><div id="progress75" ><div id="pbaranim"></div></div></div></li>
 		<li><p>Javascript</p>	<div id="progressbar"><div id="progress60" ><div id="pbaranim"></div></div></div></li>
 		<li><p>Anglais</p>		<div id="progressbar"><div id="progress88" ><div id="pbaranim"></div></div></div></li>
 		<li><p>Chinois</p>		<div id="progressbar"><div id="progress10" ><div id="pbaranim"></div></div></div></li>
@@ -97,11 +100,11 @@
 			<h2>SSII -Solutions SAP - 160 personnes – Service commercial - Paris XVIIe</h2>
 		</div>
 		<ul>
+			<li>Conception de l’ergonomie du logiciel de gestion (UI/UX)</li>
+			<li>Recettage du logiciel de Compte Rendu d’Activité</li>
 			<li>Maintenance Informatique interne</li>
-			<li>Hot line pour les ingénieurs en mission chez les clients</li>
-			<li>Etude de la visibilité de la compagnie sur les Réseaux Sociaux</li>
-			<li>Beta Test du logiciel de Compte Rendu d’Activité</li>
-			<li>Conception de l’ergonomie du logiciel de gestion</li>
+			<li>Hot line pour les ingénieurs en régie</li>
+			<li>Amélioration de la visibilité de la compagnie sur les Réseaux Sociaux</li>			
 		</ul>
 	</div>
 	<div id="interim" class="exp">
@@ -146,9 +149,11 @@
 				<input type="submit" id="bouton" value="Envoyer">
 			
 			</form>
+				<a id="CV" href="doc/CV-Benjamin-Saul.docx" download>Télécharger mon CV</a>
 		</div>
 	</section>
 	
 	</div>
 	
+	<script src="js/menu.js"></script>
 	</body>
